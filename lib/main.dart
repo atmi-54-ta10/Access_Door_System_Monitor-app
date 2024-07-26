@@ -46,10 +46,10 @@ class _MonitorScreenState extends State<MonitorScreen> {
 
   void get_data() async {
     var response_door = await http.get(
-      Uri.parse("http://192.168.2.240:36356/door/status"),
+      Uri.parse("http://127.0.0.1:36356/door/status"),
     );
     var response_master = await http.get(
-      Uri.parse("http://192.168.2.240:36356/master/status"),
+      Uri.parse("http://127.0.0.1:36356/master/status"),
     );
     var responseData_door = json.decode(response_door.body);
     var responseData_master = json.decode(response_master.body);
