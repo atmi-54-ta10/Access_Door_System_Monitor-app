@@ -44,7 +44,7 @@ This repository contains the Monitor Application for the Access Door System usin
     Name=Monitor APP
     Comment=This is the Monitor APP for Access Door System
     Exec=/home/yourusername/Access_Door_System_Monitor-app/build/linux/release/bundle/monitor_app
-    Icon=/home/yourusername/Access_Door_System_Monitor-app/assets/icon.png
+    Icon=/home/yourusername/Access_Door_System_Monitor-app/assets/logota-9.png
     Terminal=false
     Type=Application
     ```
